@@ -40,3 +40,4 @@ create table users
 SELECT friend_id FROM friends WHERE user_id IN (SELECT friend_id FROM friends WHERE user_id = 2 AND status = 'ACTIVE') AND status = 'ACTIVE' AND friend_id NOT IN (SELECT friend_id FROM friends WHERE user_id = 2) AND friend_id != 2
 
 ```
+5. EXPLAIN находиться в файле ```EXPLAIN.tsv```
