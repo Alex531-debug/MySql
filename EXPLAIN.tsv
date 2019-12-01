@@ -1,3 +1,0 @@
-1	PRIMARY	friends		ref	friends_uindex,friend_id_fk	friends_uindex	5	const	293	33.33	Using where; Using index
-1	PRIMARY	friends		ref	friends_uindex,friend_id_fk	friends_uindex	5	friends.friends.friend_id	2	23.34	Using where; Using index
-3	SUBQUERY	friends		ref	friends_uindex,friend_id_fk	friends_uindex	5	const	293	100	Using index
